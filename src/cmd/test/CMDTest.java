@@ -13,7 +13,7 @@ public class CMDTest {
 		Process p = null;
 		try {
 			p = Runtime.getRuntime().exec("c:\\test.bat");
-
+			
 			p.waitFor();
 			System.out.println(p.exitValue());
 			System.out.println("over");
